@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "backroomsevent",
+  "version": "1.0.0",
+  "name": "Backrooms Event Mod",
+  "description": "Mod for Backrooms Event with custom commands and HUD.",
+  "authors": [
+    "Assistant"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.backroomsevent.BackroomsMod"
+    ],
+    "client": [
+      "com.backroomsevent.BackroomsClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
